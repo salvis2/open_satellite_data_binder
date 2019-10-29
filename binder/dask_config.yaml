@@ -1,0 +1,14 @@
+# TODO: It would be better if this was a common file for all images in the repo
+# It doesn't seem like symbolic links work.
+# This file is lifted from https://github.com/scottyhq/pangeo-binder-test/blob/master/binder/dask_config.yaml
+# xref: pangeo-stacks#1 and repo2docker#565
+distributed:
+  logging:
+    bokeh: critical
+
+  dashboard:
+    link: /user/{JUPYTERHUB_USER}/proxy/{port}/status
+
+  admin:
+    tick:
+      limit: 5s
