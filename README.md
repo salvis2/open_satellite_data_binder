@@ -1,6 +1,9 @@
 # Open Satellite Data Binder
 
-Repo to give context on existing / working satellites. 
+Repo to give context on existing / working satellites. The data is taken from the Union of Concerned Scientists
+<a href="https://www.ucsusa.org/resources/satellite-database">
+    Satellite Database
+</a>.
 
 Launch this repo as a binder with the badge below:
 
