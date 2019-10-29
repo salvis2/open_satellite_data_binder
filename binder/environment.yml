@@ -1,0 +1,20 @@
+name: satellite_binder_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - dask
+  - jupyter-server-proxy
+  - nbgitpuller
+  - python-graphviz
+  - tornado
+  - pandas
+  - dask-labextension
+  - matplotlib
+  - jupyterlab
+  - numpy
+  - jupyterhub
+  - bokeh
+  - distributed
+prefix: /Users/Stitchclone3/opt/anaconda3/envs/satellite_binder_env
+
